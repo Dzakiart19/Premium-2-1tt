@@ -27,4 +27,4 @@ outputType = "console"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "python Premium-2-1t/telegram_bot.py"
+args = "python telegram_bot.py"
