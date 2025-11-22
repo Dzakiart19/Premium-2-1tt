@@ -1,36 +1,47 @@
+# Credentials & Sessions
+.fancookie.txt
+.fantoken.txt
+sessions/
+*.session
+
+# Test data sensitif
+test_real_data.py
+my_cookie.txt
+
+# Hasil crack
+OK/*.txt
+CP/*.txt
+data/dump_*.txt
+
+# Logs
+/tmp/logs/
+*.log
+
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.venv
 env/
 venv/
-ENV/
-.venv
-
-# Virtual environments
-.pythonlibs/
-.upm/
-
-# Project specific
-OK/
-CP/
-data/
-.prox.txt
-.cache/
-*.log
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
-# OS
+# System
 .DS_Store
-.env.local
+Thumbs.db
 
-# Secrets (keep this for security)
-!.replit
+# Proxy
+.prox.txt

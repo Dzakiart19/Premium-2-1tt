@@ -14,6 +14,7 @@ Proyek ini adalah bot Telegram yang dirancang untuk melakukan scraping dan crack
 - **Dashboard:** Realtime update seperti log terminal
 - **Testing:** Harus test dengan data real dari user
 - **Perintah:** Jangan membuat perubahan pada `run.py`. Jangan membuat perubahan pada metode exact di `core/auth.py`, `core/dumper.py`, `core/cracker.py`.
+- **Security:** JANGAN PERNAH hardcode credentials (cookie/token) di kode atau dokumentasi. Semua credentials harus input runtime atau encrypted.
 
 ## System Architecture
 
